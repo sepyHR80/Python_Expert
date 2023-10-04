@@ -1,0 +1,17 @@
+Interceptor Pattern (Middleware):
+
+The interceptor pattern, often referred to as
+middleware in web development, is a design pattern
+that allows you to insert processing logic at various
+points request/response pipeline.
+It's commonly used in web frameworks and other systems
+to perform actions like authentication, logging, 
+input validation, and more, before or after handling a request.
+
+Key Concepts:
+    Middleware Chain:
+        Middleware components are organized into a chain or stack. Each middleware component processes a request, possibly modifies it, and passes it along to the next component in the chain.
+    Order of Execution:
+        Middleware components execute in a specific order, typically from top to bottom in the stack. This order is important as it determines the sequence in which processing occurs.
+    Request and Response:
+        Middleware components have access to both the incoming request and the outgoing response, allowing them to inspect, modify, or augment them.
